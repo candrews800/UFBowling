@@ -1,0 +1,50 @@
+#sub-menu{
+	height: 30px;
+	list-style-type:none;
+}
+
+#sub-menu a{
+	float: left;
+	margin: 0 5px 0 5px;
+	text-decoration: none;
+	font-family: 'Bree Serif', Georgia, serif;
+	line-height: 30px;
+	font-size: 1.1em;
+}
+
+#sub-menu a:hover{
+	color: #CCCCCC;
+}
+
+#sub-menu a{
+	margin: 0 15px 0 0px;
+}
+
+.menu_underline{
+	width: 88%;
+}
+
+#sub-menu .selected, #sub-menu .selected:hover{
+	color: #AAAAAA;
+	cursor: default;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h3{
+	font-size: 1.25em;
+}
+
+.faq-answer{
+	margin-bottom: 10px;
+}
+
+.highlights{
+	margin-top: 10px;
+}
+
+.bold{
+	font-weight: bold;
+}

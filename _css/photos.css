@@ -1,0 +1,40 @@
+.album{
+	height: auto;;
+	width: 45%;
+	margin-bottom: 20px;
+	margin-right: 5%;
+	float: left;
+}
+
+.album a{
+	text-decoration: none;
+}
+
+.album a:hover{
+	text-decoration: underline;
+}
+
+.album p{
+	text-align: center;
+	font-weight: bold;
+}
+
+.album img{
+	width: 100%;
+	box-shadow: 2px 2px 10px #666666;
+}
+
+#photo-wrap{
+	width: 100%;
+	text-align: justify;
+}
+
+.photo{
+	display: inline-block;
+	margin: 5px;
+}
+
+.photo img{
+	height: 100px;
+	width: 145px;
+}

@@ -1,0 +1,63 @@
+#sub-menu{
+	height: 30px;
+	list-style-type:none;
+}
+
+#sub-menu a{
+	float: left;
+	margin: 0 5px 0 5px;
+	text-decoration: none;
+	font-family: 'Bree Serif', Georgia, serif;
+	line-height: 30px;
+	font-size: 1.1em;
+}
+
+#sub-menu a:hover{
+	color: #CCCCCC;
+}
+
+#sub-menu a{
+	margin: 0 15px 0 0px;
+}
+
+.menu_underline{
+	width: 41%;
+}
+
+#sub-menu .selected, #sub-menu .selected:hover{
+	color: #AAAAAA;
+	cursor: default;
+}
+
+h1 span{
+	color: #FF4A00;
+	font-size: 0.6em;
+}
+
+p{
+	text-align: justify;
+}
+
+.coach, .player{
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.coach img, .player img{
+	height: 150px;
+	width: auto;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 10px #666666;
+}
+
+.player h2{
+	text-transform: uppercase;
+}
+
+.class-status{
+	color: #FF4A00;
+	font-size: 0.7em;
+	text-transform: uppercase;
+}

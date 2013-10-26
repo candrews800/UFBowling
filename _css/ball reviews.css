@@ -1,0 +1,64 @@
+
+
+#ball_list li{
+	border: 1px solid #CCCCCC;
+	font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 5px;
+	position: relative;
+	display: table-cell; 
+	vertical-align: middle;
+	width: 140px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#ball_list a{
+	text-decoration: none;
+}
+
+#ball_list a:hover{
+	text-decoration: underline;
+}
+
+#ball_list li:hover{
+	background-color: #CCCCCC;
+}
+
+#ball_list .odd{
+	background-color: #F5F5F5;
+}
+
+#ball_list img{
+	width: 50px;;
+	height: 25px;
+}
+
+#ball_list .selected{
+	background-color: #CCCCCC;
+}
+
+h1 span{
+	color: #FF4A00;
+	font-size: 0.6em;
+}
+
+#review img{
+	height: 150px;
+	width: auto;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+#review p{
+	font-size: 0.8em;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+#review .reviewer{
+	font-weight: bold;
+	color: #FF4A00;
+}

@@ -1,0 +1,37 @@
+input[type=text]{
+	width: 50%;
+}
+
+input[type=text]:focus{
+	outline: none;
+    border-color: white;
+    box-shadow: 0 0 3px #FF4A00;
+}
+
+textarea{
+	border:2px solid #dadada;
+	font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+	line-height: 1.5em;
+	color: #0021A5;
+
+	border-radius: 3px;
+	padding-left: 2px;
+	
+	width: 80%;
+	height: 100px;
+}
+
+textarea:focus{
+	outline: none;
+    border-color: white;
+    box-shadow: 0 0 3px #FF4A00;
+}
+
+label{
+	width: 100px;
+	font-weight: bold;
+}
+
+.additional{
+	margin-top: 15px;
+}

@@ -1,0 +1,260 @@
+/* main.css for ufbowling.com
+   Written by Clinton Andrews
+   
+   Colors:
+   Blue: #0021A5, rgb(0,33,165)
+   Orange: #FF4A00, rgb(255,74,0)
+*/
+
+body{
+	padding: 100px 0 15px 0;
+	color: #0021A5;
+	
+}
+
+a, a:visited{
+	color: #0021A5;
+}
+
+
+
+.section_underline{
+	width: 95%;
+	height: 2px;
+	background-color: #FF4A00;
+	margin-bottom: 10px;
+}
+
+input[type=text]{
+	border:2px solid #dadada;
+	font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+	line-height: 1.5em;
+	color: #0021A5;
+
+	border-radius: 3px;
+	padding-left: 2px;
+}
+
+input[type=text]:focus{
+	outline: none;
+    border-color: white;
+    box-shadow: 0 0 3px #FF4A00;
+}
+
+
+.button{
+	font-family: 'Bree Serif', Georgia, serif;
+	color: #0021A5;
+
+}
+
+.button:hover{
+
+}
+
+.button:active{
+	
+}
+
+/* Typography */
+
+h1, h2, h3, h5, h6{
+	font-family: 'Bree Serif', Georgia, serif;
+}
+
+h1{
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 1.4em;
+}
+
+h3{
+	font-size: 1.3em;
+}
+
+p{
+	font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+	line-height: 1.5em;
+}
+
+/* Header */
+
+#social{
+	position: relative;
+	
+}
+
+#fb{
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+#twitter{
+	float: right;
+}
+
+#social p{
+	float: left;
+	font-family: 'Bree Serif', Georgia, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	right: 80px;
+}
+
+/* Navigation */
+nav{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+nav ul{
+	height: 30px;
+	list-style-type:none;
+	background-color: #0021A5;
+}
+
+nav ul a{
+	float: left;
+	margin: 0 8px 0 8px;
+	text-decoration: none;
+	font-family: 'Bree Serif', Georgia, serif;
+	line-height: 30px;
+	font-size: 1.2em;
+}
+
+nav ul a.selected, nav ul a.selected:hover{
+	border-bottom: 5px solid #FF4A00;
+	color: #AAAAAA;
+	cursor: default;
+}
+
+
+nav ul a:hover{
+	border-bottom: 5px solid #FF4A00;
+	color: #DDDDDD;
+}
+
+nav ul a:first-child{
+	margin: 0 10px 0 0px;
+}
+
+nav a{
+	display:block;
+	color: white;
+}
+
+nav a:visited{
+	color: white;
+}
+
+nav img{
+	position: absolute;
+	bottom: 0;
+}
+
+/* Sidebar */
+
+#sponsors{
+	height: 246px;
+	border: 2px solid #FF4A00;
+	text-align: center;
+}
+
+h5{
+	color: #FF4A00;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+#sponsors img{
+	margin-top: 25px;
+}
+
+#headlines{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 200px;
+}
+
+h4{
+	font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+	line-height: 1.5em;
+	margin-bottom: 3px;
+}
+
+h4 a:visited, h4 a{
+	font-weight: normal;
+	text-decoration: none;
+}
+
+h4 a:hover{
+	text-decoration: underline;
+}
+
+#tournaments{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 200px;
+}
+
+#newsletter{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 200px;
+}
+
+#newsletter input[type=text]{
+	width: 68%;
+}
+
+#newsletter p{
+	margin-top: 10px;
+}
+
+/* Footer */
+
+footer{
+	margin-top: 15px;
+    text-align: center;
+	margin-bottom: 25px;
+}
+
+footer img{
+	margin: 20px;
+}
+
+footer li {
+    display: inline;
+    text-align: center;
+}
+
+footer ul a{
+	display: inline;
+}
+
+#footer-menu li{
+	font-family: 'Bree Serif', Georgia, serif;
+	margin: 0 5px 0 5px;
+}
+
+footer p{
+	font-family: 'Bree Serif', Georgia, serif;
+}
+
+/* Utility */
+
+.pull-left{
+	float: left;
+}
+
+.pull-right{
+	float: right;
+}
